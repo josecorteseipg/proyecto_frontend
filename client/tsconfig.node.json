@@ -1,0 +1,26 @@
+// Configuracion de TipeScript Node
+// Documentacion: https://www-typescriptlang-org.translate.goog/docs/handbook/tsconfig-json.html?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sge
+{
+	"compilerOptions": {
+		"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+		"target": "ES2022", //especifica que el código TypeScript compilado debe generar JavaScript compatible con la especificación ECMAScript
+		"lib": ["ES2023"],
+		"module": "ESNext", //Configuracion NextJs
+		"skipLibCheck": true,
+
+		/* Bundler */
+		"moduleResolution": "Bundler", //herramienta de empaquetado que se utiliza para combinar y optimizar el código TypeScript
+		"allowImportingTsExtensions": true,
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"noEmit": true,
+
+		/* Linting */ //El linting es un proceso de análisis estático del código fuente para identificar problemas de estilo, errores potenciales y malas prácticas de codificación
+		"strict": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedSideEffectImports": true
+	},
+	"include": ["vite.config.ts"]
+}
