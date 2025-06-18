@@ -42,8 +42,8 @@ npm run dev
 
 ### 4. Acceso a la aplicación
 - Frontend: http://localhost:5173
-- Backend: http://localhost:3000
-- Usuario administrador creado automáticamente:
+- Backend: http://localhost:3000 (se configura vite para que apunte directamente al puerto 3000 como 'api')
+- Usuario administrador creado automáticamente
   - Email: admin@tiendaipg.cl
   - Contraseña: admin123
 ## Base de Datos
@@ -57,18 +57,18 @@ Al ejecutar el servidor por primera vez se:
 ### Stack Tecnológico
 Frontend:
 - React 18.3.1 con TypeScript
-- Vite como bundler o empaquetador
+- Vite como bundler o empaquetador (https://vite.dev/)
 - Tailwind CSS para estilos (https://tailwindcss.com/docs/installation/using-vite)
 - radix-ui para componentes (conjunto de componentes de interfaz de usuario -  https://www.radix-ui.com/)
-- Zustand para gestión de estado del carrito
-- React Router DOM para enrutamiento
-- React Hook Form para formularios
+- Zustand para gestión de estado del carrito (https://medium.com/@arsathcomeng/zustand-in-react-native-c53381796bf7)
+- React Router DOM para enrutamiento (https://reactrouter.com/home)
+- React Hook Form para formularios (https://react-hook-form.com/)
 
 Backend:
-- Node.js con Express
-- MongoDB con Mongoose
-- JWT para autenticación
-- bcrypt para encriptación de contraseñas
+- Node.js con Express (https://nodejs.org/en/download)
+- MongoDB con Mongoose (https://mongoosejs.com/)
+- JWT para autenticación (https://jwt.io/)
+- bcrypt para encriptación de contraseñas (https://dev.to/eidorianavi/authentication-and-jwt-in-node-js-4i13)
 - CORS para comunicación (intercambio de recursos) entre origenes
 
 ## Flujo de la Aplicación
